@@ -1,5 +1,5 @@
-; 50 fps bouncer
-; By Arda Erdikmen 02.01.2015
+; 50 fps counter
+; By Arda Erdikmen 29.01.2020 - Birthday Edition :)
 
 ; Creative Commons Attribution-Sharealike Lisansý ile daðýtýlmýþtýr.
 ; https://creativecommons.org/licenses/by-sa/3.0/
