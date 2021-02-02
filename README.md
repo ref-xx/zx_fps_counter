@@ -19,12 +19,17 @@ it shoud look like this. (if your computer/browser cannot play 50fps gif, it sho
 
 ## Borders:
 upper part of the border should switch colors according to zx spectrum series, black to white.
-lower part of border should switch between red and yellow, producing a shade of orange colour. If you see a red or green border, your emulator skips frames.
+lower part of border should switch between red and yellow, producing a shade of orange/yellow colour. If you see a red or green border, your emulator skips frames.
+
+Following image shows the two frames blended. The border and lower part of image should look like this. 
+![Blended Image](https://github.com/ref-xx/zx_fps_counter/blob/main/blendedimage1.jpg?raw=true)
 
 ## Bitmap:
 Topmost part of screen shows frame number, 1 to 50.
 Middle part of screen shows short horizontal lines, switching position. They should look like grayish long horizontal line. If you sense they are moving through a direction, your emulator might skip frames.
 Bottom part of screen shows alternating checker pattern. If you see any kind of flashing at that area, it's a frame skip.
+
+
 
 ## Video Test
 Best way to test your emulator is with using a hi-framerate video recorder. Use your smartphone's slow-mo 240fps recorder. Record a couple of seconds of footage. Watch and observe your emulator performance.
