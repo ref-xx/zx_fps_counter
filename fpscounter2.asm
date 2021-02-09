@@ -1,5 +1,5 @@
 ; 50 fps counter
-; By Arda Erdikmen 29.01.2020 - Birthday Edition :)
+; By Arda Erdikmen 10.02.2021
 
 ; Creative Commons Attribution-Sharealike Lisansý ile daðýtýlmýþtýr.
 ; https://creativecommons.org/licenses/by-sa/3.0/
@@ -50,6 +50,19 @@ ldir                    ; doldur!
 ld   a,254              ; bu interrupt vektörü'nün diðer yarýsý,
 ld   i,a                ; 254 Ula Snow oluþturmaz, tüm modellere uygundur
 im   2                  ; interrupt mode 2
+
+
+ld de,23168
+ld a,0
+ld c,0
+paint
+ld (de),a
+inc de
+inc a
+cp 128
+jr nz,paint
+
+
 
 ld hl, 36352+256
 LD (count),HL
